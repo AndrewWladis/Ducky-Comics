@@ -4,10 +4,6 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.flexing {
-    display: flex;
-    flex-direction: column;
-}
 img {
     width: 287px;
     height: 200px;
@@ -65,4 +61,13 @@ header {
 .display-3{
     font-size: 90px;
     text-decoration-color: black;
+}
+
+.flexbox-pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card-deck .card {
+    background-color: aqua !important;
 }
