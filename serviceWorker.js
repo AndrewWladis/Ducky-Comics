@@ -1,6 +1,7 @@
 const DuckyComics = "Ducky-Comics"
 const assets = [
-  "/"
+  "/",
+  "/index.html"
 ]
 
 self.addEventListener("install", installEvent => {
