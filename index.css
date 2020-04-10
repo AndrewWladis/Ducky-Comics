@@ -26,4 +26,8 @@
     height: 100%;
     }
 
-   
+.fiveComic {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
