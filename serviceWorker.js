@@ -81,7 +81,8 @@ const assets = [
     "Images/wonderWoman.jpeg",
     "Images/captain-america-shield.jpeg",
     "Images/asm700.jpeg",
-    "Images/actionC.jpeg"
+    "Images/actionC.jpeg",
+    "Images/batLofo.png"
 ]
 
 self.addEventListener("install", installEvent => {
