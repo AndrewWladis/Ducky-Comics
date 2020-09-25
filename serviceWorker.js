@@ -78,7 +78,10 @@ const assets = [
     "Images/thorLogoLess.jpeg",
     "Images/Wally-West-Flash-Sad-Cover-Art.jpeg",
     "Images/wallywestRunning.jpeg",
-    "Images/wonderWoman.jpeg"",
+    "Images/wonderWoman.jpeg",
+    "Images/captain-america-shield.jpeg",
+    "Images/asm700.jpeg",
+    "Images/actionC.jpeg"
 ]
 
 self.addEventListener("install", installEvent => {
