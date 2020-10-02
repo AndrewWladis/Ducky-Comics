@@ -83,6 +83,7 @@ const assets = [
     "Images/asm700.jpeg",
     "Images/actionC.jpeg",
     "Images/batLofo.png",
+    "Images/bathroom.png",
     "Images/Logo.png"
 ]
 
