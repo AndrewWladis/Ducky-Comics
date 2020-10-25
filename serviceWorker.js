@@ -2,6 +2,7 @@ const DuckyComics = "Ducky-Comics"
 const assets = [
     "/",
     "/amazingSpiderman.html",
+    "/com.html",
     "/BatmanEarthOne.html",
     "/batmanNightwalker.html",
     "/BatmanWhiteKnight.html",
@@ -20,6 +21,7 @@ const assets = [
     "/season-one.html",
     "/TeenTitansSeasonOne.html",
     "/season-two.html",
+    "/flashReview.html",
     "/safari-pinned-tab.svg",
     "/mstile-150x150.png",
     "/favicon.ico",
