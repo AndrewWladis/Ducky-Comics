@@ -27,6 +27,7 @@ const assets = [
     "/favicon.ico",
     "/favicon-32x32.png",
     "/serviceWorker.js",
+    "/starwars.html",
     "Images/Access-Denied.jpeg",
     "Images/Aquamanfortnite.jpg",
     "Images/AquamanJLOrigin.jpeg",
