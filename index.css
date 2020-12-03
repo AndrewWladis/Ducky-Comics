@@ -35,3 +35,11 @@
 .form-spree {
     display: flex;
 }
+
+body {
+    background-color: rgb(240, 179, 68);
+}
+
+.navbar {
+    border-radius: 25px;
+}
