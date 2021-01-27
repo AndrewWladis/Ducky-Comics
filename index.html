@@ -154,6 +154,21 @@
               <script id="cid0020000244745742727" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 470px; height: 413px;">{"handle":"duckycomicschat","arch":"js","styles":{"a":"ffcc33","b":100,"c":"000000","d":"000000","k":"ffcc33","l":"ffcc33","m":"ffcc33","p":"10","q":"ffcc33","r":100,"fwtickm":1}}</script><a onclick="hideChat()">
         </div>
     </main>
-    <script src="main.js"></script>
+   
 </body>
+<script>
+    const pressed = [];
+        const secretCode = 'hellothere';
+
+    window.addEventListener('keyup', (e) => {
+        console.log(e.key);
+        pressed.push(e.key)
+        pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+
+        if(pressed.join('').includes(secretCode)) {
+            window.open("https://youtu.be/frszEJb0aOo")
+        }
+            //make it so that if they type hello there it opens in a new tab with general kenobi 
+    });
+</script>
 </html>
