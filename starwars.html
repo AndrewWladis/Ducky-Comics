@@ -119,4 +119,19 @@
           <script src="https://stackpath.bootstrapcdn.com/bootsuck with ahttrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         </main>
         </body>
+        <script>
+            const pressed = [];
+            const secretCode = 'hellothere';
+        
+            window.addEventListener('keyup', (e) => {
+                console.log(e.key);
+                pressed.push(e.key)
+                pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+        
+                if(pressed.join('').includes(secretCode)) {
+                    window.open("https://youtu.be/frszEJb0aOo")
+                }
+                    //make it so that if they type hello there it opens in a new tab with general kenobi 
+            });
+        </script>
 </html>
