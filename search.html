@@ -30,6 +30,22 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-status-bar" content="#db4938"/>
     <script type="text/javascript" src="https://s.skimresources.com/js/156838X1623227.skimlinks.js"></script>
+    <script>
+function search() { 
+    let input = document.getElementById('searchbar').value 
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('card'); 
+      
+    for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+            x[i].style.display="";                  
+        } 
+    } 
+} 
+        </script>
     <style>
         .videos {
             display: flex;
@@ -76,28 +92,116 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                         <ul class="navbar-nav bg-light" style="display: flex; justify-content: space-evenly; border-radius: 25px; width: 100%;">  
+                         <ul class="navbar-nav bg-light" style="display: flex; justify-content: space-evenly; border-radius: 25px; width: 100%;">bg-light" style="display: flex; justify-content: space-evenly; border-radius: 25px; width: 100%;">  
                         <li class="nav-item">
                             <a class="nav-link" href="index.html"><h3>Home</h3></a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="comics.html"><h3>Comics</h3></a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="games.html"><h3>Ducky Games</h3></a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="starwars.html"><h3>Star Wars</h3></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html"><img src="search.png" style="padding-left: 300%; opacity: 50%;"></a>
                         </li>
                     </div>
                 </nav>
  <br />
+    <div class="jumbotron heading">
+        <div class="middlerow">
+            <form>
+                <h1 class="display-1"><input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Click Here To Search"></h1>
+            </form>
+        </div>
+    </div>
     <br>
+    <div class="videos">
+        <meta name="Website Name" content="Ducky Comics">
+        <iframe src="https://drive.google.com/file/d/1sxRCfHsD3wk1yoB-8JR93pNenFeiAfzh/preview" width="640" height="480"></iframe>
+    </div>
+    <br>
+    <div class="videos">
+        <meta name="Website Name" content="Ducky Comics">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/x3Xn8JydSsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tGEVRQ8zzYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/No12u-CLA9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_yZY3GfuP_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="videos">
+        <meta name="Website Name" content="Ducky Comics">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wxD51T1hs58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kmv6CIXslWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="videos">
+        <meta name="Website Name" content="Ducky Comics">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yZMHJEpkYgI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LubqhkngDFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="videos">
+        <meta name="Website Name" content="Ducky Comics">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qTE0uVxwbpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br /> 
       <div class="card-columns">
-            <div class="card">
+        <div id="dark" class="card">
+            <img src="Images/batmanAndJoker.png" class="card-img-top" alt="batman">
+            <div class="card-body">
+            <h5 class="card-title">Batman by Ducky Comics Is Out!</h5>
+              <p class="card-text"><a href="https://batmanduckycomics.netlify.app">Click Here To Play</a></p>
+            </div>
+            </div>
+            <div id="dark" class="card">
+                <img src="Images/mrfreeze.jpg" class="card-img-top" alt="mrfreeze">
+                <div class="card-body">
+                <h5 class="card-title">Batman Mr Freeze Is Out!</h5>
+                  <p class="card-text"><a href="https://mrfreeze6000.netlify.app/">Click Here To Play</a></p>
+                </div>
+                </div>
+                <div id="dark" class="card">
+                    <img src="Images/john-cena.jpg" class="card-img-top" alt="johncena">
+                    <div class="card-body">
+                    <h5 class="card-title">Find John Cena Challenge!</h5>
+                      <p class="card-text"><a href="https://findjohncena.netlify.app/">Click Here To Play</a></p>
+                    </div>
+                    </div>
+                    <div id="dark" class="card">
+                        <img src="https://redboxjump.netlify.app/homepic.png" class="card-img-top" alt="red">
+                        <div class="card-body">
+                        <h5 class="card-title">Red Box Jump</h5>
+                          <p class="card-text"><a href="https://redboxjump.netlify.app/">Click Here To Play</a></p>
+                        </div>
+                        </div>
+        <div class="card">
+            <img src="Images/Avengers-Game.jpg" class="card-img-top" alt="vbuck">
+            <div class="card-body">
+            <h5 class="card-title">Free Avengers Video Game Skins! <br>(This time it's not a joke)</h5>
+            <p class="card-text"><a target="_blank" href="avengers.html">Get Skins!</a></p>
+       </div>
+        </div>
+        <div class="card">
             <img src="Images/nightwalkerLogo.jpeg" class="card-img-top" alt="batman logo">
             <div class="card-body">
             <h5 class="card-title">Batman Nightwalker Review</h5>
             <h5 class="card-title">By Duck</h5>
             <a href="batmanNightwalker.html">Read It</a>
+        </div>
+        </div>
+        <div class="card">
+            <img src="Images/wandavsionfunko.jpg" class="card-img-top" alt="funko pops">
+            <div class="card-body">
+            <h5 class="card-title">Quicksilver CONFIRMED to be in WandaVision!</h5>
+            <h5 class="card-title">By Duck</h5>
+            <a href="wandavision.html">Read It</a>
         </div>
         </div>
             <div class="card">
@@ -156,6 +260,14 @@
             <a href="BatmanWhiteKnight.html">Read It</a>
         </div>
         </div>
+            <a target="_blank" href="https://andrewwladis.github.io/Aquaman-Tribute/" class="btn btn-primary">
+            <div class="card bg-dark text-white">
+                <img src="Images/jason-momoa-aquaman.jpeg" class="card-img" alt="aquaman">
+                <div class="card-img-overlay">
+                    <h1 class="card-title">Aquaman Website</h1>
+                </div>
+          </div>
+        </a>
         <div class="card">
             <img class="card-img-top" src="Images/dead-planet.png" alt="batmanZombies">
             <div class="card-body">
@@ -164,6 +276,21 @@
             <a href="DCeased.html">Read It</a>
             </div>
         </div>
+            <a target="_blank" href="https://andrewwladis.github.io/Flash-Tribute/" class="btn btn-primary">
+                <div class="card bg-dark text-white">
+                    <img src="Images/Wally-West-Flash-Sad-Cover-Art.jpeg" class="card-img" alt="Wally west">
+                    <div class="card-img-overlay">
+                        <h1 class="card-title">Wally West Website</h1>
+                    </div>
+              </div>
+            </a>
+            <div class="card">
+              <img class="card-img-top" src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/02/Batman-Villains-feature.jpg" alt="Joker">
+              <div class="card-body">
+              <h5 class="card-title">Comic Starting Points</h5>
+              <p class="card-text"><a href="start.html">Go There</a>.</p>
+              </div>
+            </div>
               <div class="card">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShIeFTGEiXc1thF6WUJf61xvKUV3lRH3WybD9ZN9kKUo8VCYtx&usqp=CAU" class="card-img-top" alt="Shazam">
                 <div class="card-body">
@@ -325,259 +452,6 @@
                     </p>
                     </div>
                   </div>
-                  <div class="card">
-                    <img class="card-img-top" src="Images/Teentitans.jpeg" alt="Teen Titans">
-                    <div class="card-body">
-                    <h5 class="card-title">Teen Titans</h5>
-                    <p class="card-text">Today's comic starting point of the day is Teen Titans. To start reading Teen Titans read <a target="_blank" href="https://www.booksamillion.com/p/Teen-Titans/Benjamin-Percy/9781401270773?id=7871503780445">Teen Titans Rebirth Volume 1</a>.</p>
-                    </div>
-                  </div>
-                    <div class="card">
-                        <img class="card-img-top" src="https://topcomics.fr/wp-content/uploads/2020/02/x-men-enfants-et-heritiers-des-super-heros-mutants-de-marvel-cable.jpg" alt="Cable">
-                        <div class="card-body">
-                        <h5 class="card-title">Cable</h5>
-                        <p class="card-text">Today's comic starting point of the day is Cable. To start reading Cable read <a target="_blank" href="https://www.booksamillion.com/p/Cable/James-Robinson/9781302904821?id=7871503780445#overview">Cable Volume 1</a>.</p>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <img class="card-img-top" src="Images/thorDonnyCates.jpg" alt="thor">
-                        <div class="card-body">
-                        <h5 class="card-title">Now is the Best Time To Start Reading Thor Comics!</h5>
-                        <h6>By Duck</h6>
-                        <p class="card-text"><a href="ThorComics.html">Read It</a></p>
-                        </div>
-                      </div>
-                        <div class="card">
-                          <img class="card-img-top" src="https://vignette.wikia.nocookie.net/batman/images/d/dd/HarleyQuinn1.jpg/revision/latest/top-crop/width/360/height/450?cb=20111021182120" alt="Harley Quinn">
-                          <div class="card-body">
-                          <h5 class="card-title">Harley Quinn</h5>
-                          <p class="card-text">Today's comic starting point of the day is Harley Quinn. To start reading Harley Quinn read <a target="_blank" href="https://www.booksamillion.com/p/Harley-Quinn/Jimmy-Palmiotti/9781401254155?id=7871503780445">Harley Quinn Volume 1</a>.</p>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img class="card-img-top" src="Images/fantastic4.jpeg" alt="Fantastic Four">
-                          <div class="card-body">
-                          <h5 class="card-title">Fantastic Four</h5>
-                          <p class="card-text">Today's comic starting point of the day is Fantastic Four. To start reading Fantastic Four read <a target="_blank" href="https://www.booksamillion.com/p/Fantastic-Four/Tom-Scioli/9781302917692?id=7871503780445">Fantastic Four Grand Design</a> or <a target="_blank" href="https://www.abebooks.com/Ultimate-Fantastic-Four-Vol-1-Brian/11797534127/bd">Ultimate Fantastic Four Volume 1</a>.</p>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <img class="card-img-top" src="Images/captain-cold.jpeg" alt="Captain Cold">
-                          <div class="card-body">
-                          <h5 class="card-title">Captain Cold</h5>
-                          <p class="card-text">Today's comic starting point of the day is Captain Cold. To start reading Captain Cold read <a target="_blank" href="https://www.booksamillion.com/p/Flash-Rogues/9781401281595?id=7871503780445">Flash Rogues: Captain Cold</a>.</p>
-                          </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="https://i1.wp.com/www.comicbookrevolution.com/wp-content/uploads/2008/05/Invincible-Iron-Man.jpg?resize=212%2C276&ssl=1" alt="Iron Man">
-                            <div class="card-body">
-                            <h5 class="card-title">Iron Man</h5>
-                            <p class="card-text">Today's comic starting point of the day is Iron Man. To start reading Iron Man read <a target="_blank" href="https://www.booksamillion.com/p/Iron-Man/Warren-Ellis/9781302918903?id=7993335425515">Iron Man Extremis</a>.</p>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img class="card-img-top" src="https://lareviewofbooks-org-cgwbfgl6lklqqj3f4t3.netdna-ssl.com/wp-content/uploads/2020/01/milesmorales.png" alt="Spider Man">
-                            <div class="card-body">
-                            <h5 class="card-title">Miles Morales: Spider-Man</h5>
-                            <p class="card-text">Today's comic starting point of the day is Miles Morales: Spider-Man. To start reading Miles Morales: Spider-Man read <a target="_blank" href="https://www.booksamillion.com/p/Miles-Morales/Brian-Michael-Bendis/9780785197782?id=7871503780445">Miles Morales: Ultimate Spider-Man Ultimate Collection</a>.</p>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img class="card-img-top" src="https://www.comicbookherald.com/wp-content/uploads/2016/12/supergirl-dc-comics.jpg" alt="Supergirl">
-                            <div class="card-body">
-                            <h5 class="card-title">Supergirl</h5>
-                            <p class="card-text">Today's comic starting point of the day is Supergirl. To start reading Supergirl read <a target="_blank" href="https://www.booksamillion.com/p/Supergirl/Mariko-Tamaki/9781401268947?id=7871503780445">Supergirl: Being Super</a> or <a target="_blank" href="https://www.walmart.com/ip/Supergirl-Vol-1-Reign-of-the-Cyborg-Supermen-Rebirth-9781401268466/55258239">Supergirl Volume 1</a>.</p>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <img class="card-img-top" src="https://i.ytimg.com/vi/VXpV5Y6Os2g/maxresdefault.jpg" alt="Flash">
-                            <div class="card-body">
-                            <h5 class="card-title">The Flash</h5>
-                            <p class="card-text">Today's comic starting point of the day is The Flash. To start reading The Flash read <a target="_blank" href="https://www.booksamillion.com/p/Flash/Brian-Buccellato/9781401284763?id=7871503780445">Flash Starting Line</a> and <a target="_blank" href="https://www.booksamillion.com/p/Flash/Joshua-Williamson/9781779505767?id=7993335425515">Flash Year One</a>.</p>
-                            </div>
-                          </div>
-                          <div class="card">
-                                <img class="card-img-top" src="https://cafans.b-cdn.net/images/Category_53164/subcat_114705/NEW%20X-MEN.jpg" alt="Xmen">
-                                <div class="card-body">
-                                <h5 class="card-title">X-Men</h5>
-                                <p class="card-text">Today's comic starting point of the day is X-Men. To start reading X-Men read <a target="_blank" href="https://www.booksamillion.com/p/Gifted/Joss-Whedon/9780785115311?id=7871503780445">Astonishing X-Men Volume 1</a>.</p>
-                                </div>
-                              </div>
-                              <div class="card">
-                                <img class="card-img-top" src="Images/magneto.jpeg" alt="Magneto">
-                                <div class="card-body">
-                                <h5 class="card-title">Magneto</h5>
-                                <p class="card-text">Today's comic starting point of the day is Magneto. To start reading Magneto read <a target="_blank" href="https://www.booksamillion.com/p/X-Men/Chris-Claremont/9781302915537?id=7871503780445">X-Men Black</a>.</p>
-                                </div>
-                              </div>
-                              <div class="card">
-                                <img class="card-img-top" src="Images/joker.jpeg" alt="joker">
-                                <div class="card-body">
-                                <h5 class="card-title">Joker</h5>
-                                <p class="card-text">Today's comic starting point of the day is Joker. To start reading Joker read <a target="_blank" href="https://www.booksamillion.com/p/Joker-DC-Black-Label/Brian-Azzarello/9781401291860?id=7871503780445">Joker</a>.</p>
-                                </div>
-                              </div>
-                              <div class="card">
-                                    <img class="card-img-top" src="Images/wonderWoman.jpeg" alt="Wonder Woman">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Wonder Woman</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Wonder Woman. To start reading Wonder Woman read <a target="_blank" href="https://www.walmart.com/ip/Wonder-Woman-Vol-1-Blood-The-New-52-9781401235628/21278088">Wonder Woman Volume 1</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://townsquare.media/site/622/files/2016/05/UltimateSpidey.jpg?w=980&q=75" alt="Spider-Man">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Peter Parker: Spider-Man</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Spider-Man. To start reading Spider-Man read <a target="_blank" href="https://www.walmart.com/ip/Ultimate-Spider-Man-Volume-1-Power-Responsibility-9780785139409/11592652">Ultimate Spider-Man: Ultimate Collection Volume 1</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://wallpaperaccess.com/full/943547.jpg" alt="Captain America">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Captain America</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Captain America. To start reading Captain America read <a target="_blank" href="https://www.booksamillion.com/p/Captain-America/Ed-Brubaker/9781302927332?id=7871503780445">Captain America by Ed Brubaker Volume 1</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://pm1.narvii.com/6102/0417507a84da77dafc5d8d1daddab8cb2f91b7f8_hq.jpg" alt="Green Arrow">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Green Arrow</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Green Arrow. To start reading Green Arrow read <a target="_blank" href="https://www.booksamillion.com/p/Green-Arrow/Andy-Diggle/9781401217433?id=7871503780445">Green Arrow Year One</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://boundingintocomics.com/files/2019/01/2019.01.28-05.08-boundingintocomics-5c4e8e3ef00ee.jpg" alt="Captain Marvel">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Captain Marvel</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Captain Marvel. To start reading Captain Marvel read <a target="_blank" href="https://www.booksamillion.com/p/Captain-Marvel/Kelly-Sue-Deconnick/9780785190134?id=7871503780445">Captain Marvel Volume 1</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://usercontent1.hubstatic.com/14456940_f520.jpg" alt="Shazam">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Shazam!</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Shazam. To start reading Shazam read <a target="_blank" href="https://www.booksamillion.com/p/Shazam-New/Geoff-Johns/9781401246990?id=7993335425515">Shazam Origins</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/syfywire_blog_post/2018/10/spider-man_birth_of_venom_hero.jpg" alt="venom">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Venom</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Venom. To start reading Venom read <a target="_blank" href="https://www.walmart.com/ip/Venom-by-Donny-Cates-Vol-1-Rex-9781302913069/410772410">Venom Volume 1</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://www.thewrap.com/wp-content/uploads/2017/01/Hal-Jordan.jpg" alt="green lantern">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Green Lantern</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Green Lantern. To start reading Green Lantern read <a target="_blank" href="https://www.booksamillion.com/search?id=7871503780445&query=Green%20Lantern%20Secret%20Origin%20HC&filter=rare_search&search=Search&work_id=38377850&qty_avail=42">Green Lantern: Secret Origin</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://i.annihil.us/u/prod/marvel/i/mg/c/b0/5b184ffa85ca8/background.jpg" alt="ant man">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Ant-Man</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Ant-Man. To start reading Ant-Man read <a target="_blank" href="https://www.booksamillion.com/p/Ant-Man/Tom-Defalco/9780785163909?id=7871503780445">Ant-Man Astonishing Origins</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://cdn.player.one/sites/player.one/files/styles/lg/public/2018/02/21/black-panther-1-2018-cover.jpg" alt="Black panther">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Black Panther</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Black Panther. To start reading Black Panther read <a target="_blank" href="https://www.booksamillion.com/p/Black-Panther/Ta-Nehisi-Coates/9781302904159?id=7871503780445">Black Panther Volume 1</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://www.slashfilm.com/wp/wp-content/images/superman-action-comics-10000-e1520623702913.jpg" alt="Superman">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Superman</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Superman. To start reading Superman read <a target="_blank" href="https://www.booksamillion.com/p/Superman/Geoff-Johns/9781401290221?id=7871503780445">Superman Secret Origin</a> or <a target="_blank" href="https://www.booksamillion.com/p/All-Star-Superman-DC-Black/Grant-Morrison/9781401290832?id=7871503780445">All-Star Superman</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://www.dccomics.com/sites/default/files/styles/dc_news_featured_image/public/field/image/DavidAQ_blog_5b060fbc10c151.57452589.jpg?itok=wlmel4v6" alt="Aquaman">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Aquaman</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Aquaman. To start reading Aquaman read <a target="_blank" href="https://www.walmart.com/ip/Aquaman-Vol-1-The-Trench-The-New-52-9781401237103/22609081">Aquaman Volume 1</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://media.comicbook.com/2018/03/10-best-daredevil-comics-cover-1096697-1280x0.jpeg" alt="Daredevil">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Daredevil</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Daredevil. To start reading Daredevil read <a target="_blank" href="https://www.booksamillion.com/p/Daredevil/Frank-Miller/9780785134817?id=7871503780445">Daredevil Volume 1</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://vignette.wikia.nocookie.net/batman/images/b/b1/2062307-batgirl2011_large.jpg/revision/latest/top-crop/width/360/height/450?cb=20111103195225" alt="batgirl">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Batgirl</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Batgirl. To start reading Batgirl read <a target="_blank" href="https://www.booksamillion.com/p/Batgirl/Gail-Simone/9781401238148?id=7871503780445">Batgirl Volume 1</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1x27C-Nu74X9jGLIqhbSCuSNPayKY0uWuhhccVN4BK01uLbsn" alt="Guardians of the Galaxy">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Guardians of the Galaxy</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Guardians of the Galaxy. To start reading Guardians of the Galaxy read <a target="_blank" href="https://www.walmart.com/ip/Guardians-of-the-Galaxy-Volume-1-9780785194002/43379136">Guardians of the Galaxy Volume 1</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://bbts1.azureedge.net/images/p/full/2018/08/069200b6-e2b0-4429-b513-934bd3aa7c97.jpg" alt="Deadpool">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Deadpool</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Deadpool. To start reading Deadpool read <a target="_blank" href="https://www.booksamillion.com/p/Deadpool/Daniel-Way/9780785185321?id=7871503780445">Deadpool by Daniel Way</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://nerdist.com/wp-content/uploads/2018/06/HAWKMAN-HEADER.jpg" alt="hawkman">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Hawkman</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Hawkman. To start Hawkman reading read <a target="_blank" href="https://www.booksamillion.com/p/Hawkman/Robert-Venditti/9781401291440?id=7871503780445">Hawkman Volume 1</a> .</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="Images/jlorigin.jpeg" alt="Justice League">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Justice League</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Justice League. To start reading Justice League read <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Geoff-Johns/9781401237882?id=7871503780445">Justice League: Origin</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://www.denofgeek.com/wp-content/uploads/2016/03/suicide-squad-2-release-date-cast-trailer-news.jpg?resize=768%2C432" alt="Suicide Squad">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Suicide Squad</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Suicide Squad. To start reading Suicide Squad read <a target="_blank" href="https://www.booksamillion.com/p/Suicide-Squad/Rob-Williams/9781401269814?id=7871503780445">Suicide Squad Volume 1</a> or <a target="_blank" href="https://www.abebooks.com/servlet/BookDetailsPL?bi=30253101285&searchurl=kn%3DNew%2BSuicide%2BSquad%252C%2BVolume%2B1%253A%2BPure%2BInsanity%26sortby%3D17&cm_sp=snippet-_-srp1-_-title1">New Suicide Squad Volume 1: Pure Insanity</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="Images/poisonIvy.jpeg" alt="Poison Ivy">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Poison Ivy</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Poison Ivy. To start reading Poison Ivy read <a target="_blank" href="https://www.booksamillion.com/p/Batman-Arkham-Poison-Ivy/Turtleback-Books/9780606392044?id=7871503780445">Batman Arkham: Poison Ivy</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://vignette.wikia.nocookie.net/marvel_dc/images/f/f5/Birds_of_Prey_0003.jpg/revision/latest?cb=20131020192624" alt="Birds of Prey">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Birds of Prey</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Birds of Prey. To start reading Birds of Prey read <a target="_blank" href="https://www.booksamillion.com/p/Harley-Quinn-Birds-Prey/Jimmy-Palmiotti/9781779504494?id=7871503780445">Harley Quinn and The Birds of Prey</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img class="card-img-top" src="https://cmro.travis-starnes.com/images/characters/strange_doc.jpg" alt="Doctor Strange">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Doctor Strange</h5>
-                                    <p class="card-text">Today's comic starting point of the day is Doctor Strange. To start reading Doctor Strange read <a target="_blank" href="https://www.booksamillion.com/p/Doctor-Strange/Brian-K-Vaughan/9780785187868?id=7871503780445">Doctor Strange: The Oath</a> or <a target="_blank" href="https://www.booksamillion.com/p/Doctor-Strange/Greg-Pak/9780785163916?id=7871503780445">Doctor Strange: Strange Origin</a>.</p>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                      <img class="card-img-top" src="Images/Avengers2018.jpeg" alt="Avengers">
-                                      <div class="card-body">
-                                      <h5 class="card-title">Avengers</h5>
-                                      <p class="card-text">Today's comic starting point of the day is Avengers. To start reading Avengers read <a target="_blank" href="https://www.booksamillion.com/p/Avengers-Jonathan-Hickman/Jonathan-Hickman/9781302925093?id=7871503780445">Avengers By Jonathan Hickman: The Complete Collection</a>.</p>
-                                      </div>
-                                    </div>
                 </div>
                 </div>
             </div>
@@ -587,6 +461,7 @@
                     <span itemprop="company">Ducky Comics</span>
               </div>
              </div> 
+             
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootsuck with ahttrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

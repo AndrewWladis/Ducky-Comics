@@ -36,63 +36,319 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <main>
- <div class="flexing">  
-    <header>
-            <nav class="navbar navbar-expand-lg navbar-light container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div style="padding: 20px;">
-                            <div class="bg-light">
-                                <img src="Images/Logo.png" />
-                            </div>
-                        </div>
+    <nav style="width: 100%;" class="navbar navbar-expand-lg navbar-light container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="width: 100%;" class="collapse navbar-collapse" id="navbarNav">
 
-                        <ul class="navbar-nav bg-light" style="border-radius: 25px;">
-                            <li class="nav-item active" style="padding: 20px;">
-                                <a class="nav-link" href="index.html"><h2>Home</h2></a>
-                            </li>
-                            <li class="nav-item" style="padding: 20px;">
-                                <a class="nav-link" href="comics.html"><h2>Comics</h2></a>
-                            </li>
-                            <li class="nav-item" style="padding: 20px;">
-                                <a class="nav-link" href="games.html"><h2>Ducky Games</h2></a>
-                            </li>
-                            <li class="nav-item" style="padding: 20px;">
-                                <a class="nav-link" href="starwars.html"><h2>Star Wars</h2></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <br />
-    <meta name="Website Name" content="Ducky Comics">
-    <div class="card-group">
-            <div class="card" style="border-radius: 25px;">
-                <img style="border-top-left-radius: 25px; border-top-right-radius: 25px;" src="Images/Avengers-Game.jpg" class="card-img-top" alt="vbuck">
-                <div class="card-body">
-                <h5 class="card-title">Free Avengers Video Game Skins! <br>(This time it's not a joke)</h5>
-                <p class="card-text"><a target="_blank" href="avengers.html">Get Skins!</a></p>
-           </div>
-            </div>
-            <div class="card" style="border-radius: 25px;">
-              <img style="border-top-left-radius: 25px; border-top-right-radius: 25px;" src="Images/img.jpeg" class="card-img-top" alt="me">
-              <div class="card-body">
-              <h5 class="card-title">Please Go To My Personal Website</h5>
-              <p class="card-text"><a href="https://andrewwladis.netlify.app/" target="_blank">Click Here To Go There!</a></p>
-              </div>
-            </div>
-            <div class="card" style="border-radius: 25px;">
+            <ul class="navbar-nav bg-light" style="display: flex; justify-content: space-evenly; border-radius: 25px; width: 100%;">
+                <li class="nav-item active" style="padding: 15px;">
+                    <a class="nav-link" href="index.html"><h2>Home</h2></a>
+                </li>
+                <li class="nav-item" style="padding: 15px;">
+                    <a class="nav-link" href="comics.html"><h2>Comics</h2></a>
+                </li>
+
+                <li class="nav-item" style="padding: 15px;">
+                    <a class="nav-link" href="starwars.html"><h2>Star Wars</h2></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="heading">
+        <br>
+        <h1 class="display-2 heading__header"><b>Ducky Comics</b></h1>
+        <h1 class="heading__header">News, Reviews, and more</h1>
+    </div>
+    <br>
+        <div class="card-columns">
+            <div class="card">
                 <a target="_blank" href="https://drive.google.com/file/d/1sxRCfHsD3wk1yoB-8JR93pNenFeiAfzh/view?usp=sharing">
-              <img style="border-top-left-radius: 25px; border-top-right-radius: 25px;" src="Images/legoTrooper.jpeg" class="card-img-top" alt="lego">
+              <img src="Images/legoTrooper.jpeg" class="card-img-top" alt="lego">
               <div class="card-body">
               <h5 class="card-title">Lego The Trooper Hunter Exclusive Trailer Now Out!</h5>
               </div>
             </div>
-        </a>
-             </div>
+            <div class="card">
+                <img src="Images/ww84.jpg" class="card-img-top" alt="wonder woman">
+                <div class="card-body">
+                <h5 class="card-title">Wonder Woman 1984 Review (Warning! Contains Spoilers)</h5>
+                <p class="card-text"><a target="_blank" href="ww84.html">Read it</a></p>
+           </div>
+            </div>
+            <div class="card">
+                    <img src="Images/Avengers-Game.jpg" class="card-img-top" alt="vbuck">
+                    <div class="card-body">
+                    <h5 class="card-title">Free Avengers Video Game Skins! <br>(This time it's not a joke)</h5>
+                    <p class="card-text"><a target="_blank" href="avengers.html">Get Skins!</a></p>
+               </div>
+                </div>
+                <div class="card">
+                <img src="Images/nightwalkerLogo.jpeg" class="card-img-top" alt="batman logo">
+                <div class="card-body">
+                <h5 class="card-title">Batman Nightwalker Review</h5>
+                <h5 class="card-title">By Duck</h5>
+                <a href="batmanNightwalker.html">Read It</a>
+            </div>
+            </div>
+            <div class="card">
+                <img src="Images/wandavsionfunko.jpg" class="card-img-top" alt="funko pops">
+                <div class="card-body">
+                <h5 class="card-title">Quicksilver CONFIRMED to be in WandaVision!</h5>
+                <h5 class="card-title">By Duck</h5>
+                <a href="wandavision.html">Read It</a>
+            </div>
+            </div>
+                <div class="card">
+                    <img src="Images/flashRunning.jpeg" class="card-img-top" alt="flash">
+                    <div class="card-body">
+                    <h5 class="card-title">The Flash Rebirth Review</h5>
+                    <h5 class="card-title">By Duck</h5>
+                    <a href="flashReview.html">Read It</a>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="Images/captain-america-the-end.jpeg" class="card-img-top" alt="Captain America">
+                    <div class="card-body">
+                    <h5 class="card-title">Captain America: The End Review</h5>
+                    <h5 class="card-title">By Duck</h5>
+                    <a href="captainAmericaTheEnd.html">Read It</a>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="Images/jlDark.jpeg" class="card-img-top" alt="Justice League dark">
+                    <div class="card-body">
+                    <h5 class="card-title">Justice League Dark Issues 1-3 Review</h5>
+                    <h5 class="card-title">By Duck</h5>
+                    <a href="jlDarkReview.html">Read It</a>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="Images/spidermanHeader.jpg" class="card-img-top" alt="Spider-Man">
+                    <div class="card-body">
+                    <h5 class="card-title">The Amazing Spider-Man: The Parker Luck Review</h5>
+                    <h5 class="card-title">By Duck</h5>
+                    <a href="amazingSpiderman.html">Read It</a>
+                </div>
+                </div>
+                <div class="card">
+                    <img src="Images/superman-header.jpeg" class="card-img-top" alt="superman">
+                    <div class="card-body">
+                    <h5 class="card-title">Superman Secret Origin Review</h5>
+                    <h5 class="card-title">By Duck</h5>
+                    <a href="supermanSecretOrigin.html">Read It</a>
+                </div>
+                </div> 
+                <div class="card">
+                    <img src="Images/batman_earth_one.jpeg" class="card-img-top" alt="Batman">
+                    <div class="card-body">
+                    <h5 class="card-title">Batman Earth One Review</h5>
+                    <h5 class="card-title">By Duck</h5>
+                    <a href="BatmanEarthOne.html">Read It</a>
+                </div>
+                </div> 
+                <div class="card">
+                    <img src="Images/batmanWhiteKnight.jpeg" class="card-img-top" alt="Batman in prision">
+                    <div class="card-body">
+                    <h5 class="card-title">Batman: White Knight Review</h5>
+                    <h5 class="card-title">By Duck</h5>
+                    <a href="BatmanWhiteKnight.html">Read It</a>
+                </div>
+                </div>
+                    <a target="_blank" href="https://andrewwladis.github.io/Aquaman-Tribute/" class="btn btn-primary">
+                    <div class="card bg-dark text-white">
+                        <img src="Images/jason-momoa-aquaman.jpeg" class="card-img" alt="aquaman">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title">Aquaman Website</h1>
+                        </div>
+                  </div>
+                </a>
+                <div class="card">
+                    <img class="card-img-top" src="Images/dead-planet.png" alt="batmanZombies">
+                    <div class="card-body">
+                    <h5 class="card-title">Every DCeased Tie-In Comic</h5>
+                    <h6>By Duck</h6>
+                    <a href="DCeased.html">Read It</a>
+                    </div>
+                </div>
+                    <a target="_blank" href="https://andrewwladis.github.io/Flash-Tribute/" class="btn btn-primary">
+                        <div class="card bg-dark text-white">
+                            <img src="Images/Wally-West-Flash-Sad-Cover-Art.jpeg" class="card-img" alt="Wally west">
+                            <div class="card-img-overlay">
+                                <h1 class="card-title">Wally West Website</h1>
+                            </div>
+                      </div>
+                    </a>
+                    <div class="card">
+                      <img class="card-img-top" src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/02/Batman-Villains-feature.jpg" alt="Joker">
+                      <div class="card-body">
+                      <h5 class="card-title">Comic Starting Points</h5>
+                      <p class="card-text"><a href="start.html">Go There</a>.</p>
+                      </div>
+                    </div>
+                      <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShIeFTGEiXc1thF6WUJf61xvKUV3lRH3WybD9ZN9kKUo8VCYtx&usqp=CAU" class="card-img-top" alt="Shazam">
+                        <div class="card-body">
+                        <h5 class="card-title">SHAZAM! Reading Order</h5>
+                        <h5 class="card-title">By Duck</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li><a target="_blank" href="https://www.booksamillion.com/p/Shazam-New/Geoff-Johns/9781401246990?id=7993335425515">Shazam Origins</a></li>
+                                <li><a target="_blank" href="https://www.booksamillion.com/p/Shazam/Geoff-Johns/9781779504593?id=7871503780445">Shazam: Seven Magic Lands</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                    </div>
+                      <div class="card">
+                        <img class="card-img-top" src="https://newmediarockstars.com/wp-content/uploads/2016/01/Jonah-Hex-Legends-of-Tomorrow-1.jpg" alt="jonah hex">
+                        <div class="card-body">
+                        <h5 class="card-title">Underrated Character Spotlight: Jonah Hex</h5>
+                        <h6>By Duck</h6>
+                        <p class="card-text">Jonah Hex is my Dad’s favorite superhero. I just finished reading Jonah Hex: Shadows West. It is an underrated comic for a great price. It contains three mini-series’; Two Gun Mojo, Riders of The Worm, and Shadows West. It is amazing! I started looking further into Jonah Hex comics and found another great run; All-Star Western The New 52 All-Star Western</a>. Jonah Hex is an underrated character and is definitely worth a read.</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                            <img class="card-img-top" src="Images/thorDonnyCates.jpg" alt="thor">
+                            <div class="card-body">
+                            <h5 class="card-title">Now is the Best Time To Start Reading Thor Comics!</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text"><a href="ThorComics.html">Read It</a></p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="Images/superMovie.jpeg" alt="super hero movies">
+                            <div class="card-body">
+                            <h5 class="card-title">20+ Comic Recommendations Based on Movies</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text"><a href="com.html">Read It</a></p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img src="Images/falcon.jpg" class="card-img-top" alt="falcon comics">
+                            <div class="card-body">
+                            <h5 class="card-title">The Falcon Review</h5>
+                            <h5 class="card-title">By Duck</h5>
+                            <p class="card-text"> I am a big Falcon fan and The Falcon is the best Falcon series I have ever read. It follows falcon after he broke up with the Avengers. It is a small scale comic that deals more with small threats rather than giant world-ending events. The Falcon highlight how great of a superhero Falcon is in ways that no other comics really can. 5 stars. Great for fans of Falcon and Luke Cage.</p>
+                        </div>
+                        </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://img1.looper.com/img/gallery/the-untold-truth-of-namor-the-sub-mariner/intro-1572283001.jpg" alt="namor">
+                            <div class="card-body">
+                            <h5 class="card-title">Underrated Character Spotlight: Namor The Sub-Mariner</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">Namor is a very underrated character. He has had a lot of comics. Some great ones are Namor: The Best Defense #1 and <a href="https://www.booksamillion.com/search?id=7871503780445&query=Namor%20Visionaries:%20%20John%20Byrne,%20Volume%201&filter=rare_search&search=Search&work_id=32529848&qty_avail=11" target="_blank">Namor by John Byrne</a></p></p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://www.dccomics.com/sites/default/files/GalleryChar_1900x900_aquaman1_04_52ab5de7275bb2.59639997.jpg" alt="aquaman">
+                            <div class="card-body">
+                            <h5 class="card-title">Top 5 Best Aquaman Storylines</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>5. <a target="_blank" href="https://www.booksamillion.com/p/Aquaman/David-Michelinie/9781779500953?id=7871503780445#overview">Aquaman: The Death of a Prince</a>. This was dark and gritty before the Dark Knight Returns and Watchmen. It is one of the first good Aquaman storys. It costs $39.99. <a target="_blank" href="https://www.booksamillion.com/p/Aquaman/David-Michelinie/9781779500953?id=7871503780445#overview">Click here to purchase it.</a></li>
+                                    <li>4. <a target="_blank" href="https://www.booksamillion.com/p/Aquaman/Rick-Veitch/9781401275143?id=7871503780445">Aquaman: The Waterbearer</a>. This is the comic where Aquaman has a water hand. It's pretty good. It costs $19.99. <a target="_blank" href="https://www.booksamillion.com/p/Aquaman/Rick-Veitch/9781401275143?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>3. <a target="_blank" href="https://www.tfaw.com/aquaman-underworld-deluxe-edition-hc.html">Aquaman: Underworld</a>. This is about Aquaman going up against the new atlantean king. It costs $29.99. <a target="_blank" href="https://www.tfaw.com/aquaman-underworld-deluxe-edition-hc.html">Click here to purchase it.</a></li>
+                                    <li>2. <a target="_blank" href="https://www.tfaw.com/aquaman-tpb-vol-01-the-trench.html">Aquaman: The Trench</a>. This is the first storyline of Geoff Jonhs Aquaman run. It's art by Ivan Reis is amazing. It costs $14.99. <a target="_blank" href="https://www.tfaw.com/aquaman-tpb-vol-01-the-trench.html">Click here to purchase it.</a></li>
+                                    <li>1. <a target="_blank" href="https://www.tfaw.com/aquaman-tpb-vol-03-throne-of-atlantis.html">Aquaman: Throne of Atlantis</a>. This is written by Geoff Johns, the best Aquaman writer of all time. This is what the Aquaman movie is based off of. It costs $16.99. <a target="_blank" href="https://www.tfaw.com/aquaman-tpb-vol-03-throne-of-atlantis.html">Click here to purchase it.</a></li>
+                                </ul>
+                            </p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://www.slashfilm.com/wp/wp-content/images/Woody-Harrelson-Carnage.jpg" alt="carnage">
+                            <div class="card-body">
+                            <h5 class="card-title">Top 3 Best Carnage Comics</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>3. <a target="_blank" href="https://www.tfaw.com/absolute-carnage-tpb.html">Absolute Carnage</a>. This is the sequel to Maximum Carnage. It costs $24.99. <a target="_blank" href="https://www.tfaw.com/absolute-carnage-tpb.html">Click here to purchase it.</a></li>
+                                    <li>2. <a target="_blank" href="https://www.booksamillion.com/p/Carnage-Classic/David-Michelinie/9781302900595?id=7871503780445">Carnage Classic</a>. This is the origin of Carnage. It costs $34.99. <a target="_blank" href="https://www.booksamillion.com/p/Carnage-Classic/David-Michelinie/9781302900595?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>1. <a target="_blank" href="https://www.tfaw.com/amazing-spider-man-epic-collection-tpb-maximum-carnage.html">Spider-Man: Maximum Carnage</a>. This is an epic storyline that shows how bad Carnage is. It is amazing!. It costs $39.99 but it is worth every penny. <a target="_blank" href="https://www.tfaw.com/amazing-spider-man-epic-collection-tpb-maximum-carnage.html">Click here to purchase it.</a></li>
+                                </ul>
+                            </p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://www.destinyusa.com/wp-content/uploads/sites/7/2016/05/ChKs5rjWUAE2T8m.jpg-large.jpeg" alt="star wars">
+                            <div class="card-body">
+                            <h5 class="card-title">Top 4 Star Wars Comics</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>4. Kanan: The Last Padawan. If you liked Star Wars: Rebels, the prequel triliogy, or the Old Republic games, you will love this. It takes place during the Revenge of The Sith, after Order 66. It follows Kanan as the clones track him down and how he gets to where he is during Star Wars: Rebels.</li>
+                                    <li>3. <a target="_blank" href="https://www.booksamillion.com/p/Star-Wars/Ethan-Sacks/9781302920838?id=7871503780445">Bounty Hunters</a>. If you loved the Mandalorian you will love this comic. It is about bounty hunters tracking down their targets. <a target="_blank" href="https://www.booksamillion.com/p/Star-Wars/Ethan-Sacks/9781302920838?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>2. <a target="_blank" href="https://www.booksamillion.com/p/Star-Wars-Darth-Vader/Kieron-Gillen/9780785192558?id=7871503780445">Darth Vader Volume 1: Vader</a>. This comic shows how deadly and powerful Darth Vader is. <a target="_blank" href="https://www.booksamillion.com/p/Star-Wars-Darth-Vader/Kieron-Gillen/9780785192558?id=7871503780445&__cf_chl_jschl_tk__=be1305baaa343791141ed002beef616402edc9d3-1603406991-0-Af4CxJ3hY74j_X9DB9Z_WEcpKCwGoYApHqlMFW9JDqCpE7Ut9OczbtxvUtfn-PrH__1Q3oElopQTOPmFlA5HGx--9CtrsflIglKJqd19lyTnQphxG0c8A6v700YlP_c_S371NydLrukUp6dJT5x2nYVIZdA-me-XNVNi4Uejd1fvkmQbp8ODbq7nc8KwUSu2wdoxNiL4wXLIjZsyNDOpY5vvE09DQjhAhO-xk11ukXJ6YuaJzd7ny7Cezba9fvUAjd1mhNRoKbu0xaeQlIk4zdq_fCBk3kM5yp3qB7br2J_669JxmRUTjlWiRGrvpQ75yPnyOKbFmyeLbB6aUivlo_jiDP3feUHz-Gv2H0fohkOq5pcEpRSo0ieGyI-uaxF94Eor5qGFCMU-dS85g6Eee7M">Click here to purchase it.</a></li>
+                                    <li>1. <a target="_blank" href="https://www.booksamillion.com/p/Star-Wars/Jason-Aaron/9780785192138?id=7871503780445">Star Wars By Jason Aaron</a>. This is the written by Jason Aaron, the best Thor writer of all time. <a target="_blank" href="https://www.booksamillion.com/p/Star-Wars/Jason-Aaron/9780785192138?id=7871503780445">Click here to purchase it.</a></li>
+                                </ul>
+                            </p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="Images/jlorigin.jpeg" alt="Justice-League">
+                            <div class="card-body">
+                            <h5 class="card-title">Top 5 Justice League Storylines</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>5. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Scott-Snyder/9781401283346?id=7871503780445">Justice League: No Justice</a>. Justice League: No Justice is an amazing comic about the Justice League fighting Brainiac and the Omega Titans. It costs $16.99. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Scott-Snyder/9781401283346?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>4. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Geoff-Johns/B9781401242404?id=7871503780445">Justice League: Throne of Atlantis</a>. Throne of Atlantis is an Aquaman/Justice League crossover. It takes the best parts of Geoff Johns's Aquaman run and Geoff Johns's Justice League run. The plot is very similar to the Aquaman movie. It costs $7.97. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Geoff-Johns/B9781401242404?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>3. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Geoff-Johns/9781401237882?id=7871503780445">Justice League: Origin</a>. This is the written by Geoff Johns, one of the best Justice League writers of all time. It is the first comic in the New 52. The comic also has amazing art by Jim Lee. It costs $16.99. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Geoff-Johns/9781401237882?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>2. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Scott-Snyder/9781401299361?id=7871503780445">Justice League: Justice/Doom War</a>. Justice/Doom War is the climax of Scott Snyder's Justice League run. It is an amazing comic. It costs $24.99. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League/Scott-Snyder/9781401299361?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>1. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League-Scott-Snyder-Book/Scott-Snyder/9781401295219?id=7871503780445">Justice Legaue by Scott Snyder</a>. Justice League by Scott Snyder is one of the best Justice League runs ever. It is written by Scott Snyder and drawn by multiple diffrent amazing artists. It costs $39.99. <a target="_blank" href="https://www.booksamillion.com/p/Justice-League-Scott-Snyder-Book/Scott-Snyder/9781401295219?id=7871503780445">Click here to purchase it.</a></li>
+                                </ul>
+                            </p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://imgix-media.wbdndc.net/cms/filer_public/e0/77/e0776e91-9d08-4bc0-8505-1b3653bbbb83/better-flash-banner.jpg" alt="flash">
+                            <div class="card-body">
+                            <h5 class="card-title">Top 5 Flash Storylines</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>5. <a target="_blank" href="https://www.tfaw.com/flash-tpb-vol-04-reverse.html">Flash: Reverse</a>. Flash: Reverse is part of the New 52. It completely re-invents Reverse Flash and Kid Flash. It costs $16.99. <a target="_blank" href="https://www.tfaw.com/flash-tpb-vol-04-reverse.html">Click here to purchase it.</a></li>
+                                    <li>4. <a target="_blank" href="https://www.tfaw.com/flash-750.html">Flash 750</a>. Flash 750 is a celebration of the Flash. It contains stories featuring all of the Flashes. It costs $6.39. <a target="_blank" href="https://www.tfaw.com/flash-750.html">Click here to purchase it.</a></li>
+                                    <li>3. <a target="_blank" href="https://www.booksamillion.com/p/Flash/Geoff-Johns/9781401230012?id=7871503780445">Flash Rebirth</a>. Flash Rebirth is about Barry Allen coming back from the dead. Some people think that it is the best Flash comic of all time, I disagree, but it is still very good. It is very similair to the begining of The Flash Season 4. It costs $14.99. <a target="_blank" href="https://www.booksamillion.com/p/Flash/Geoff-Johns/9781401230012?id=7871503780445">Click here to purchase it.</a></li>
+                                    <li>2. <a target="_blank" href="https://www.booksamillion.com/p/Flash/Joshua-Williamson/9781779505767?id=7993335425515">Flash Year One</a>. Flash Year One is the origin story of the Flash. It re-invents the 40s Flash villian; the Turtle. <a target="_blank" href="https://www.booksamillion.com/p/Flash/Joshua-Williamson/9781779505767?id=7993335425515">Click here to purchase it.</a></li>
+                                    <li>1. <a target="_blank" href="https://www.shopdcentertainment.com/products/the-flash-vol-1-the-dastardly-death-of-the-rogues-paperback">The Flash: The Dastardly Death of the Rogues</a>. This is the written by Geoff Johns, the best Flash writer of all time. It costs $14.99. <a target="_blank" href="https://www.shopdcentertainment.com/products/the-flash-vol-1-the-dastardly-death-of-the-rogues-paperback">Click here to purchase it.</a></li>
+                                </ul>
+                            </p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://nerdist.com/wp-content/uploads/2019/10/Green-Lantern-Corps-Liam-Sharp.jpg" alt="green lantern">
+                            <div class="card-body">
+                            <h5 class="card-title">Top 4 Green Lantern Storylines</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>4. <a target="_blank" href="https://www.tfaw.com/green-lantern-earth-one-hc-vol-01.html">Green Lantern: Earth One</a>. Green Lantern Earth One is a comic about Green Lanterns in the future. It is about Green Lantern, but it feels more like Alien and Star Wars. It costs $19.99. <a target="_blank" href="https://www.tfaw.com/green-lantern-earth-one-hc-vol-01.html">Click here to purchase it.</a></li>
+                                    <li>3. Green Lantern: Emerald Twlight. This story shows how powerful Hal Jordan is. It is about Hal Jordan taking over the Green Lantern Corps and becoming Parallax.</li>
+                                    <li>2. Green Lantern: Sinestro Corps War. This is written by Geoff Johns, the best Green Lantern writer of all time. This is amazing.</li>
+                                    <li>1. <a target="_blank" href="https://www.tfaw.com/blackest-night-saga-essential-edition-tpb.html">Blackest Night</a>. This is also written by Geoff Johns. It costs $24.99. <a target="_blank" href="https://www.tfaw.com/blackest-night-saga-essential-edition-tpb.html">Click here to purchase it.</a></li>
+                                </ul>
+                            </p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://www.comicbookherald.com/wp-content/uploads/2017/02/robin-and-new-teen-titans.jpeg" alt="Teen Titans">
+                            <div class="card-body">
+                            <h5 class="card-title">Top 5 Best Teen Titans Storylines</h5>
+                            <h6>By Duck</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>5. <a target="_blank" href="https://www.booksamillion.com/p/Titans-Book/Judd-Winick/9781401284282?id=7871503780445#overview">Titans: Together Forever</a>. This is the reuion of the Teen Titans. It is sold for $24.99. This is written by Judd Winick, the writer responsible for some of the greatest DC stories in the early 2000s. <a target="_blank" href="https://www.booksamillion.com/p/Titans-Book/Judd-Winick/9781401284282?id=7871503780445#overview">Click this link to buy it.</a></li>
+                                    <li>4. <a target="_blank" href="https://www.booksamillion.com/p/Teen-Titans/Benjamin-Percy/9781401275044?id=7871503780445">Teen Titans Rebirth Volume 2</a>. This is the second storyline of Teen Titans Rebirth. It is sold for $14.99. This adds Aqualad; my favorite Titan. It is is a great Aquaman story and a great Teen Titans story. <a target="_blank" href="https://www.booksamillion.com/p/Teen-Titans/Benjamin-Percy/9781401275044?id=7871503780445">Click this link to buy it.</a></li>
+                                    <li>3. <a target="_blank" href="https://www.booksamillion.com/p/Teen-Titans/Benjamin-Percy/9781401270773?id=7871503780445">Teen Titans Rebirth Volume 1</a>. This first storyline of Teen Titans Rebirth sets the tone very well and establishes all the characters very well. It is sold for $16.99. <a target="_blank" href="https://www.booksamillion.com/p/Teen-Titans/Benjamin-Percy/9781401270773?id=7871503780445">Click this link to buy it.</a></li>
+                                    <li>2. <a target="_blank" href="https://www.shopdcentertainment.com/products/titans-vol-1-the-return-of-wally-west-rebirth-paperback">Titans: The Return of Wally West</a> This is sold for $19.95. It is written by the same perosn who re-ivented the Guardians of the Galaxy, so it is amazing. <a target="_blank" href="https://www.shopdcentertainment.com/products/titans-vol-1-the-return-of-wally-west-rebirth-paperback">Click this link to buy it.</a></li>
+                                    <li>1. <a target="_blank" href="https://www.booksamillion.com/p/New-Teen-Titans/Marv-Wolfman/9781401275778?id=7993335425515">Teen Titans: The Judas Contract</a>. It is sold for $19.99. It is written by the best Teen Titans writer; Marv Wolfman. <a target="_blank" href="https://www.booksamillion.com/p/New-Teen-Titans/Marv-Wolfman/9781401275778?id=7993335425515">Click this link to buy it.</a></li>
+                                </ul>
+                            </p>
+                            </div>
+                          </div>
              </div>
             <form class="m-3" action="https://formspree.io/xrgaqvpw" method="POST">
                 <h1>Tell Us About Your Experience</h1>
@@ -150,9 +406,6 @@
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-          <div style="width: 470px;" class="sticky">
-              <script id="cid0020000244745742727" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 470px; height: 413px;">{"handle":"duckycomicschat","arch":"js","styles":{"a":"ffcc33","b":100,"c":"000000","d":"000000","k":"ffcc33","l":"ffcc33","m":"ffcc33","p":"10","q":"ffcc33","r":100,"fwtickm":1}}</script><a onclick="hideChat()">
-        </div>
     </main>
    
 </body>
